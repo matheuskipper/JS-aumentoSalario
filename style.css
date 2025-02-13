@@ -1,5 +1,7 @@
 * {
   font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 main {
@@ -14,23 +16,54 @@ main {
 .cabecalho {
   display: flex;
   align-items: center;
+  height: 40px;
+  padding: 1rem;
 }
 
-#titulo {
+#titulo-cabecalho {
   font-size: 19px;
   font-weight: 600;
+  color: #363636;
 }
 
 #logo {
-  width: 120px;
-  height: 120px;
+  width: 60px;
+  height: 60px;
+  padding: 1rem;
 }
 
 .container {
-  display: flex;
+  display: block;
   justify-content: center;
   height: 100vh;
-  width: 60%;
+  width: 70%;
   border-radius: 5px;
   background-color: white;
+}
+
+#titulo-principal {
+  color: #5a5a5a;
+  text-transform: uppercase;
+  font-weight: 450;
+  letter-spacing: 1px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #d3d3d3;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.subtitulo {
+  color: #5a5a5a;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 1rem;
 }
