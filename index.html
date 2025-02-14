@@ -26,8 +26,24 @@
           funcionário e o percentual de aumento. O resultado será exibido logo
           abaixo.
         </h3>
+        <div class="dados">
+          <label for="salario">Informe o Salário atual:</label>
+          <input type="number" id="salario" />
+
+          <label for="percentual">Informe o percentual de aumento:</label>
+          <input type="number" id="percentual" />
+          <div class="botoes">
+            <button id="submit" onclick="calcular()">Calcular</button>
+            <button id="clear" onclick="limpar()">Limpar</button>
+          </div>
+        </div>
       </div>
     </main>
+    <footer>
+      <div class="rodape">
+        <span id="titulo-rodape">Desenvolvido por Matheus Kipper</span>
+      </div>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
