@@ -37,9 +37,22 @@
             <button id="clear" onclick="limpar()">Limpar</button>
           </div>
         </div>
-        <div class="resultado">
+        <div class="resultado" id="resultado-container">
           <h3>Resultado da simulação:</h3>
-          <p id="resultado"></p>
+          <div id="resultado">
+            <div class="salario-atual">
+             Salário atual: R$ <span id="salario-atual"></span>.
+            </div>
+            <div class="percentual-aumento">
+                Percentual de aumento: <span id="percentual-aumento"></span>%.
+            </div>
+            <div class="aumento-total">
+                Aumento salarial: R$ <span id="aumento-total"></span>.
+            </div>
+            <div class="novo-salario">
+            Novo salário: R$ <span id="novo-salario"></span>.
+            </div>
+          </div>
       </div>
     </main>
     <footer>
